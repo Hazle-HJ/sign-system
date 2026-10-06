@@ -1,0 +1,143 @@
+{
+  "id": "sign_008",
+  "source": {
+    "filename": "sign_008.jpg",
+    "width": 1200,
+    "height": 1600
+  },
+  "ocr": {
+    "text": "오 주류• 안주 소주 막걸리",
+    "confidence": 0.5,
+    "lines": [
+      {
+        "text": "오",
+        "confidence": 0.5,
+        "bbox": [
+          0.577,
+          0.8101,
+          0.0247,
+          0.0271
+        ]
+      },
+      {
+        "text": "주류• 안주",
+        "confidence": 0.5,
+        "bbox": [
+          0.3962,
+          0.5958,
+          0.1131,
+          0.1777
+        ]
+      },
+      {
+        "text": "소주",
+        "confidence": 0.5,
+        "bbox": [
+          0.7122,
+          0.5581,
+          0.0392,
+          0.0678
+        ]
+      },
+      {
+        "text": "막걸리",
+        "confidence": 0.5,
+        "bbox": [
+          0.6619,
+          0.3366,
+          0.0679,
+          0.1452
+        ]
+      }
+    ]
+  },
+  "color": {
+    "mean_saturation": 0.273,
+    "mean_brightness": 0.365,
+    "contrast": 0.172
+  },
+  "geometry": {
+    "edge_density": 0.027
+  },
+  "typography": {
+    "weight": null,
+    "width": null,
+    "roundness": null,
+    "condensation": null,
+    "irregularity": null
+  },
+  "opencv_text": {
+    "line_text": "국밥",
+    "orientation": "unknown",
+    "stroke_width_px": 98.92,
+    "char_size_px": 535.2,
+    "stroke_to_height": 0.185,
+    "char_aspect": null,
+    "region_source": "ai",
+    "box": [
+      0.332,
+      0.328,
+      0.446,
+      0.347
+    ],
+    "mask_quality": "low"
+  },
+  "ai": {
+    "model": "gemini-3.6-flash",
+    "observation": {
+      "main_text": {
+        "text": "국밥",
+        "box_2d": [
+          328.0,
+          332.0,
+          675.0,
+          778.0
+        ]
+      },
+      "typography": {
+        "weight": 0.8,
+        "width": 0.6,
+        "roundness": 0.3,
+        "condensation": 0.3,
+        "irregularity": 0.8,
+        "stroke_variation": 0.7,
+        "decoration": 0.3
+      },
+      "material": {
+        "metal": 0.0,
+        "plastic": 0.1,
+        "acrylic": 0.0,
+        "paint": 0.9,
+        "fabric": 0.0
+      },
+      "frame": {
+        "presence": 0.0,
+        "thickness": null,
+        "shape": "none",
+        "corner_roundness": null
+      },
+      "lighting": {
+        "type": "none",
+        "intensity": 0.0,
+        "glow": 0.0
+      },
+      "weathering": {
+        "fading": 0.6,
+        "rust": 0.3,
+        "stain": 0.8,
+        "scratch": 0.7,
+        "overall_age": 0.9
+      },
+      "confidence": 0.92,
+      "notes": [
+        "sign is viewed from an angled perspective",
+        "edges of the sign board are heavily worn and damaged"
+      ]
+    }
+  },
+  "status": {
+    "opencv": "complete",
+    "ocr": "complete",
+    "vision_ai": "complete"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "sign_002",
+  "source": {
+    "filename": "sign_002.jpg",
+    "width": 1200,
+    "height": 1600
+  },
+  "ocr": {
+    "text": "스페사고라 SpeiGda 담배 SIGARETTES 꿰메",
+    "confidence": 0.42,
+    "lines": [
+      {
+        "text": "스페사고라",
+        "confidence": 0.3,
+        "bbox": [
+          0.3896,
+          0.6915,
+          0.1527,
+          0.3085
+        ]
+      },
+      {
+        "text": "SpeiGda",
+        "confidence": 0.5,
+        "bbox": [
+          0.5052,
+          0.7525,
+          0.0842,
+          0.1928
+        ]
+      },
+      {
+        "text": "담배",
+        "confidence": 0.5,
+        "bbox": [
+          0.2557,
+          0.0,
+          0.1342,
+          0.3148
+        ]
+      },
+      {
+        "text": "SIGARETTES",
+        "confidence": 0.5,
+        "bbox": [
+          0.3644,
+          0.0081,
+          0.0756,
+          0.2562
+        ]
+      },
+      {
+        "text": "꿰메",
+        "confidence": 0.3,
+        "bbox": [
+          0.9158,
+          0.4251,
+          0.0476,
+          0.1155
+        ]
+      }
+    ]
+  },
+  "color": {
+    "mean_saturation": 0.366,
+    "mean_brightness": 0.413,
+    "contrast": 0.321
+  },
+  "geometry": {
+    "edge_density": 0.07
+  },
+  "typography": {
+    "weight": null,
+    "width": null,
+    "roundness": null,
+    "condensation": null,
+    "irregularity": null
+  },
+  "opencv_text": {
+    "line_text": "담배",
+    "orientation": "horizontal",
+    "stroke_width_px": 30.0,
+    "char_size_px": 217.6,
+    "stroke_to_height": 0.138,
+    "char_aspect": 0.822,
+    "region_source": "ai",
+    "box": [
+      0.698,
+      0.247,
+      0.298,
+      0.136
+    ],
+    "mask_quality": "ok"
+  },
+  "ai": {
+    "model": "gemini-3.6-flash",
+    "observation": {
+      "main_text": {
+        "text": "담배",
+        "box_2d": [
+          247.0,
+          698.0,
+          383.0,
+          996.0
+        ]
+      },
+      "typography": {
+        "weight": 0.8,
+        "width": 0.5,
+        "roundness": 0.1,
+        "condensation": 0.3,
+        "irregularity": 0.2,
+        "stroke_variation": 0.0,
+        "decoration": 0.0
+      },
+      "material": {
+        "metal": 0.9,
+        "plastic": 0.0,
+        "acrylic": 0.0,
+        "paint": 0.8,
+        "fabric": 0.0
+      },
+      "frame": {
+        "presence": 0.2,
+        "thickness": 0.05,
+        "shape": "rectangle",
+        "corner_roundness": 0.1
+      },
+      "lighting": {
+        "type": "none",
+        "intensity": 0.0,
+        "glow": 0.0
+      },
+      "weathering": {
+        "fading": 0.3,
+        "rust": 0.8,
+        "stain": 0.6,
+        "scratch": 0.4,
+        "overall_age": 0.9
+      },
+      "confidence": 0.95,
+      "notes": [
+        "sign plate has visible rust and weathering",
+        "right edge of the sign is slightly cropped"
+      ]
+    }
+  },
+  "status": {
+    "opencv": "complete",
+    "ocr": "complete",
+    "vision_ai": "complete"
+  }
+}

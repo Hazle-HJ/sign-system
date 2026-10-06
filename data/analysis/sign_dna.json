@@ -1,0 +1,164 @@
+{
+  "version": "v0-provisional",
+  "based_on": [
+    "sign_001",
+    "sign_003",
+    "sign_004",
+    "sign_005",
+    "sign_006",
+    "sign_007"
+  ],
+  "excluded": {
+    "manual": {
+      "sign_002": "사용자 제외",
+      "sign_008": "사용자 제외"
+    },
+    "opencv": {
+      "sign_003": "마스크 품질 low",
+      "sign_006": "마스크 품질 low",
+      "sign_007": "마스크 품질 low"
+    },
+    "ai": {}
+  },
+  "typeface": {
+    "stroke_to_height": {
+      "base": 0.16,
+      "variation": 0.063,
+      "n": 3,
+      "source": "opencv"
+    },
+    "char_aspect": {
+      "base": 0.965,
+      "variation": 0.144,
+      "n": 3,
+      "source": "opencv"
+    },
+    "roundness": {
+      "base": 0.233,
+      "variation": 0.098,
+      "n": 6,
+      "source": "ai"
+    },
+    "irregularity": {
+      "base": 0.25,
+      "variation": 0.243,
+      "n": 6,
+      "source": "ai"
+    }
+  },
+  "jamo_rule": {
+    "weight": 0.74,
+    "variation": 1.0,
+    "width": 0.67,
+    "roundness": 0.23,
+    "irregularity": 0.25
+  },
+  "sign_system": {
+    "material.metal": {
+      "base": 0.325,
+      "variation": 0.256,
+      "n": 6,
+      "source": "ai"
+    },
+    "material.plastic": {
+      "base": 0.667,
+      "variation": 0.234,
+      "n": 6,
+      "source": "ai"
+    },
+    "material.acrylic": {
+      "base": 0.283,
+      "variation": 0.147,
+      "n": 6,
+      "source": "ai"
+    },
+    "material.paint": {
+      "base": 0.392,
+      "variation": 0.28,
+      "n": 6,
+      "source": "ai"
+    },
+    "material.fabric": {
+      "base": 0.017,
+      "variation": 0.041,
+      "n": 6,
+      "source": "ai"
+    },
+    "frame.presence": {
+      "base": 0.7,
+      "variation": 0.374,
+      "n": 6,
+      "source": "ai"
+    },
+    "frame.thickness": {
+      "base": 0.21,
+      "variation": 0.055,
+      "n": 5,
+      "source": "ai"
+    },
+    "frame.corner_roundness": {
+      "base": 0.017,
+      "variation": 0.041,
+      "n": 6,
+      "source": "ai"
+    },
+    "lighting.intensity": {
+      "base": 0.0,
+      "variation": 0.0,
+      "n": 6,
+      "source": "ai"
+    },
+    "lighting.glow": {
+      "base": 0.0,
+      "variation": 0.0,
+      "n": 6,
+      "source": "ai"
+    },
+    "weathering.fading": {
+      "base": 0.4,
+      "variation": 0.202,
+      "n": 6,
+      "source": "ai"
+    },
+    "weathering.rust": {
+      "base": 0.192,
+      "variation": 0.15,
+      "n": 6,
+      "source": "ai"
+    },
+    "weathering.stain": {
+      "base": 0.392,
+      "variation": 0.201,
+      "n": 6,
+      "source": "ai"
+    },
+    "weathering.scratch": {
+      "base": 0.417,
+      "variation": 0.327,
+      "n": 6,
+      "source": "ai"
+    },
+    "weathering.overall_age": {
+      "base": 0.592,
+      "variation": 0.248,
+      "n": 6,
+      "source": "ai"
+    },
+    "categorical": {
+      "frame_shape": {
+        "irregular": 1,
+        "rectangle": 5
+      },
+      "lighting_type": {
+        "none": 5,
+        "fluorescent": 1
+      }
+    }
+  },
+  "assumptions": [
+    "표본이 매우 적은 잠정값이며, 서로 다른 종류의 간판이 섞여 있다.",
+    "굵기와 글자 폭은 OpenCV 측정을 쓰고, AI 굵기는 간판 간 구별이 약해 쓰지 않았다.",
+    "둥글기와 불규칙은 AI 관찰값이라 참고값이다.",
+    "OpenCV 값을 시안 슬라이더 값으로 바꾸는 식은 시안의 기하 구조를 기준으로 한 가정이다."
+  ]
+}

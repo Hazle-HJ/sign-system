@@ -1,0 +1,162 @@
+{
+  "id": "sign_007",
+  "source": {
+    "filename": "sign_007.jpg",
+    "width": 1600,
+    "height": 1200
+  },
+  "ocr": {
+    "text": "도 742-8232 누수담지 010-3742-8202 소도 점",
+    "confidence": 0.567,
+    "lines": [
+      {
+        "text": "도",
+        "confidence": 0.5,
+        "bbox": [
+          0.8866,
+          0.0,
+          0.0392,
+          0.0581
+        ]
+      },
+      {
+        "text": "742-8232",
+        "confidence": 1.0,
+        "bbox": [
+          0.1999,
+          0.0338,
+          0.3985,
+          0.2514
+        ]
+      },
+      {
+        "text": "누수담지",
+        "confidence": 0.3,
+        "bbox": [
+          0.6163,
+          0.0446,
+          0.2326,
+          0.2114
+        ]
+      },
+      {
+        "text": "010-3742-8202",
+        "confidence": 1.0,
+        "bbox": [
+          0.6201,
+          0.1944,
+          0.2452,
+          0.1452
+        ]
+      },
+      {
+        "text": "소도",
+        "confidence": 0.3,
+        "bbox": [
+          0.8029,
+          0.4195,
+          0.0747,
+          0.2762
+        ]
+      },
+      {
+        "text": "점",
+        "confidence": 0.3,
+        "bbox": [
+          0.9433,
+          0.3605,
+          0.016,
+          0.0213
+        ]
+      }
+    ]
+  },
+  "color": {
+    "mean_saturation": 0.19,
+    "mean_brightness": 0.558,
+    "contrast": 0.294
+  },
+  "geometry": {
+    "edge_density": 0.054
+  },
+  "typography": {
+    "weight": null,
+    "width": null,
+    "roundness": null,
+    "condensation": null,
+    "irregularity": null
+  },
+  "opencv_text": {
+    "line_text": "누수탐지",
+    "orientation": "horizontal",
+    "stroke_width_px": 100.06,
+    "char_size_px": 241.2,
+    "stroke_to_height": 0.415,
+    "char_aspect": 0.388,
+    "region_source": "ai",
+    "box": [
+      0.614,
+      0.038,
+      0.234,
+      0.201
+    ],
+    "mask_quality": "low"
+  },
+  "ai": {
+    "model": "gemini-3.6-flash",
+    "observation": {
+      "main_text": {
+        "text": "누수탐지",
+        "box_2d": [
+          38.0,
+          614.0,
+          239.0,
+          848.0
+        ]
+      },
+      "typography": {
+        "weight": 0.7,
+        "width": 0.5,
+        "roundness": 0.2,
+        "condensation": 0.3,
+        "irregularity": 0.1,
+        "stroke_variation": 0.1,
+        "decoration": 0.0
+      },
+      "material": {
+        "metal": 0.1,
+        "plastic": 0.7,
+        "acrylic": 0.2,
+        "paint": 0.6,
+        "fabric": 0.1
+      },
+      "frame": {
+        "presence": 1.0,
+        "thickness": 0.2,
+        "shape": "rectangle",
+        "corner_roundness": 0.0
+      },
+      "lighting": {
+        "type": "none",
+        "intensity": 0.0,
+        "glow": 0.0
+      },
+      "weathering": {
+        "fading": 0.3,
+        "rust": 0.2,
+        "stain": 0.4,
+        "scratch": 0.3,
+        "overall_age": 0.6
+      },
+      "confidence": 0.9,
+      "notes": [
+        "sign is partially cut off on the left edge"
+      ]
+    }
+  },
+  "status": {
+    "opencv": "complete",
+    "ocr": "complete",
+    "vision_ai": "complete"
+  }
+}

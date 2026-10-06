@@ -1,0 +1,45 @@
+
+[1/8] sign_001.jpg
+  이미 분석이 끝나 건너뜁니다. (다시 하려면 --force)
+
+[2/8] sign_002.jpg
+  이미 분석이 끝나 건너뜁니다. (다시 하려면 --force)
+
+[3/8] sign_003.jpg
+  이미 분석이 끝나 건너뜁니다. (다시 하려면 --force)
+
+[4/8] sign_004.jpg
+  이미 분석이 끝나 건너뜁니다. (다시 하려면 --force)
+
+[5/8] sign_005.jpg
+gemini-3.8-flash: (429) You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/ / 40초 후 재시도
+gemini-3.8-flash: 계속 실패(429). 다음 모델로 넘어갑니다.
+gemini-3.7-flash: (503) This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. / 10초 후 재시도
+gemini-3.7-flash: 계속 실패(503). 다음 모델로 넘어갑니다.
+gemini-3.6-flash: (503) This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. / 10초 후 재시도
+gemini-3.6-flash: 계속 실패(503). 다음 모델로 넘어갑니다.
+gemini-3.5-flash: (503) This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. / 10초 후 재시도
+gemini-3.5-flash: 계속 실패(503). 다음 모델로 넘어갑니다.
+[경고] Vision AI 실패: 모든 모델에서 Vision AI 요청이 실패했습니다. 마지막 오류: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+  저장: sign_005.json
+
+[6/8] sign_006.jpg
+  이미 분석이 끝나 건너뜁니다. (다시 하려면 --force)
+
+[7/8] sign_007.jpg
+  이미 분석이 끝나 건너뜁니다. (다시 하려면 --force)
+
+[8/8] sign_008.jpg
+  이미 분석이 끝나 건너뜁니다. (다시 하려면 --force)
+
+==============================================================================
+id        AI가 고른 주 글자       영역출처         획/높이     AI굵기    AI상태
+------------------------------------------------------------------------------
+sign_001  대성이발관             ai           0.202    0.7     complete
+sign_002  담배                ai           0.122    0.8     complete
+sign_003  세나 미용실            ai           0.191    0.75    complete
+sign_004  중앙 흑염소            ai           0.224    0.75    complete
+sign_005  -                 ocr_largest  0.35     -       failed
+sign_006  이 곳 에.쓰           ai           0.68     0.7     complete
+sign_007  누수탐지              ai           0.297    0.7     complete
+sign_008  국밥                ai           0.093    0.8     complete

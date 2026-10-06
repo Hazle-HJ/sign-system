@@ -1,0 +1,162 @@
+{
+  "id": "sign_003",
+  "source": {
+    "filename": "sign_003.jpg",
+    "width": 1600,
+    "height": 1200
+  },
+  "ocr": {
+    "text": "TOTAL HAIR SHOP 세나 41-7453 미용스 오수동/저도 사비상 사",
+    "confidence": 0.567,
+    "lines": [
+      {
+        "text": "TOTAL HAIR SHOP",
+        "confidence": 1.0,
+        "bbox": [
+          0.0378,
+          0.2422,
+          0.2689,
+          0.0329
+        ]
+      },
+      {
+        "text": "세나",
+        "confidence": 0.5,
+        "bbox": [
+          0.0,
+          0.2867,
+          0.2922,
+          0.1319
+        ]
+      },
+      {
+        "text": "41-7453",
+        "confidence": 1.0,
+        "bbox": [
+          0.0,
+          0.4575,
+          0.2186,
+          0.0453
+        ]
+      },
+      {
+        "text": "미용스",
+        "confidence": 0.3,
+        "bbox": [
+          0.3396,
+          0.2724,
+          0.6202,
+          0.213
+        ]
+      },
+      {
+        "text": "오수동/저도",
+        "confidence": 0.3,
+        "bbox": [
+          0.5538,
+          0.8972,
+          0.0422,
+          0.0119
+        ]
+      },
+      {
+        "text": "사비상 사",
+        "confidence": 0.3,
+        "bbox": [
+          0.5509,
+          0.9089,
+          0.0465,
+          0.0174
+        ]
+      }
+    ]
+  },
+  "color": {
+    "mean_saturation": 0.328,
+    "mean_brightness": 0.542,
+    "contrast": 0.315
+  },
+  "geometry": {
+    "edge_density": 0.088
+  },
+  "typography": {
+    "weight": null,
+    "width": null,
+    "roundness": null,
+    "condensation": null,
+    "irregularity": null
+  },
+  "opencv_text": {
+    "line_text": "세나 미용실",
+    "orientation": "horizontal",
+    "stroke_width_px": 58.35,
+    "char_size_px": 252.0,
+    "stroke_to_height": 0.232,
+    "char_aspect": 1.262,
+    "region_source": "ai",
+    "box": [
+      0.0,
+      0.261,
+      0.994,
+      0.21
+    ],
+    "mask_quality": "low"
+  },
+  "ai": {
+    "model": "gemini-3.6-flash",
+    "observation": {
+      "main_text": {
+        "text": "세나 미용실",
+        "box_2d": [
+          261.0,
+          0.0,
+          471.0,
+          994.0
+        ]
+      },
+      "typography": {
+        "weight": 0.75,
+        "width": 0.7,
+        "roundness": 0.25,
+        "condensation": 0.4,
+        "irregularity": 0.2,
+        "stroke_variation": 0.4,
+        "decoration": 0.1
+      },
+      "material": {
+        "metal": 0.5,
+        "plastic": 0.8,
+        "acrylic": 0.3,
+        "paint": 0.3,
+        "fabric": 0.0
+      },
+      "frame": {
+        "presence": 0.8,
+        "thickness": 0.15,
+        "shape": "rectangle",
+        "corner_roundness": 0.0
+      },
+      "lighting": {
+        "type": "none",
+        "intensity": 0.0,
+        "glow": 0.0
+      },
+      "weathering": {
+        "fading": 0.4,
+        "rust": 0.2,
+        "stain": 0.4,
+        "scratch": 0.85,
+        "overall_age": 0.85
+      },
+      "confidence": 0.95,
+      "notes": [
+        "White vinyl lettering is heavily cracked and peeling."
+      ]
+    }
+  },
+  "status": {
+    "opencv": "complete",
+    "ocr": "complete",
+    "vision_ai": "complete"
+  }
+}

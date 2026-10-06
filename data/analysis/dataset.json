@@ -1,0 +1,256 @@
+{
+  "note": "표본 수(n)가 적은 잠정값입니다. 값을 0~1로 정규화하지 않았습니다.",
+  "total_signs": 6,
+  "excluded": {
+    "manual": {
+      "sign_002": "사용자 제외",
+      "sign_008": "사용자 제외"
+    },
+    "opencv": {
+      "sign_003": "마스크 품질 low",
+      "sign_006": "마스크 품질 low",
+      "sign_007": "마스크 품질 low"
+    },
+    "ai": {}
+  },
+  "summary": {
+    "opencv": {
+      "stroke_to_height": {
+        "n": 3,
+        "mean": 0.16,
+        "std": 0.063,
+        "min": 0.104,
+        "max": 0.228
+      },
+      "char_aspect": {
+        "n": 3,
+        "mean": 0.965,
+        "std": 0.144,
+        "min": 0.853,
+        "max": 1.128
+      }
+    },
+    "ai": {
+      "typography.weight": {
+        "n": 6,
+        "mean": 0.717,
+        "std": 0.026,
+        "min": 0.7,
+        "max": 0.75
+      },
+      "typography.width": {
+        "n": 6,
+        "mean": 0.567,
+        "std": 0.075,
+        "min": 0.5,
+        "max": 0.7
+      },
+      "typography.roundness": {
+        "n": 6,
+        "mean": 0.233,
+        "std": 0.098,
+        "min": 0.1,
+        "max": 0.4
+      },
+      "typography.condensation": {
+        "n": 6,
+        "mean": 0.35,
+        "std": 0.055,
+        "min": 0.3,
+        "max": 0.4
+      },
+      "typography.irregularity": {
+        "n": 6,
+        "mean": 0.25,
+        "std": 0.243,
+        "min": 0.0,
+        "max": 0.7
+      },
+      "typography.stroke_variation": {
+        "n": 6,
+        "mean": 0.233,
+        "std": 0.218,
+        "min": 0.05,
+        "max": 0.6
+      },
+      "typography.decoration": {
+        "n": 6,
+        "mean": 0.05,
+        "std": 0.084,
+        "min": 0.0,
+        "max": 0.2
+      },
+      "material.metal": {
+        "n": 6,
+        "mean": 0.325,
+        "std": 0.256,
+        "min": 0.1,
+        "max": 0.75
+      },
+      "material.plastic": {
+        "n": 6,
+        "mean": 0.667,
+        "std": 0.234,
+        "min": 0.2,
+        "max": 0.8
+      },
+      "material.acrylic": {
+        "n": 6,
+        "mean": 0.283,
+        "std": 0.147,
+        "min": 0.1,
+        "max": 0.5
+      },
+      "material.paint": {
+        "n": 6,
+        "mean": 0.392,
+        "std": 0.28,
+        "min": 0.1,
+        "max": 0.85
+      },
+      "material.fabric": {
+        "n": 6,
+        "mean": 0.017,
+        "std": 0.041,
+        "min": 0.0,
+        "max": 0.1
+      },
+      "frame.presence": {
+        "n": 6,
+        "mean": 0.7,
+        "std": 0.374,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "frame.thickness": {
+        "n": 5,
+        "mean": 0.21,
+        "std": 0.055,
+        "min": 0.15,
+        "max": 0.3
+      },
+      "frame.corner_roundness": {
+        "n": 6,
+        "mean": 0.017,
+        "std": 0.041,
+        "min": 0.0,
+        "max": 0.1
+      },
+      "lighting.intensity": {
+        "n": 6,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "lighting.glow": {
+        "n": 6,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "weathering.fading": {
+        "n": 6,
+        "mean": 0.4,
+        "std": 0.202,
+        "min": 0.2,
+        "max": 0.75
+      },
+      "weathering.rust": {
+        "n": 6,
+        "mean": 0.192,
+        "std": 0.15,
+        "min": 0.0,
+        "max": 0.45
+      },
+      "weathering.stain": {
+        "n": 6,
+        "mean": 0.392,
+        "std": 0.201,
+        "min": 0.2,
+        "max": 0.75
+      },
+      "weathering.scratch": {
+        "n": 6,
+        "mean": 0.417,
+        "std": 0.327,
+        "min": 0.1,
+        "max": 0.85
+      },
+      "weathering.overall_age": {
+        "n": 6,
+        "mean": 0.592,
+        "std": 0.248,
+        "min": 0.3,
+        "max": 0.85
+      }
+    },
+    "categorical": {
+      "frame_shape": {
+        "irregular": 1,
+        "rectangle": 5
+      },
+      "lighting_type": {
+        "none": 5,
+        "fluorescent": 1
+      }
+    }
+  },
+  "signs": [
+    {
+      "id": "sign_001",
+      "ocr_text": "대성이발관",
+      "ai_main_text": "대성이발관",
+      "stroke_to_height": 0.104,
+      "mask_quality": "ok",
+      "ai_weight": 0.7,
+      "ai_overall_age": 0.85
+    },
+    {
+      "id": "sign_003",
+      "ocr_text": "TOTAL HAIR SHOP 세나 41-7453 미용스 오수동/저도 사비상 사",
+      "ai_main_text": "세나 미용실",
+      "stroke_to_height": 0.232,
+      "mask_quality": "low",
+      "ai_weight": 0.75,
+      "ai_overall_age": 0.85
+    },
+    {
+      "id": "sign_004",
+      "ocr_text": "정말 믿을수 중앙 (주) 647-3004. 642- 는 집 .. 염소 4 (0) 643-1220 033-643-1220 010-5346-3004 즙 LG 포커",
+      "ai_main_text": "중앙 흑염소",
+      "stroke_to_height": 0.228,
+      "mask_quality": "ok",
+      "ai_weight": 0.75,
+      "ai_overall_age": 0.65
+    },
+    {
+      "id": "sign_005",
+      "ocr_text": "멍텅구리 642-9128 찜전통! 아구찜•알찜•명태찜 돼지주물럭•냉동삼겹살 배달 • 포장 점심식사 좋은추억 만 가세요. 그리고 또 놀러오세요 또 멍텅구리 아구 & 알찜 출입문 아구찜 • 알찜 • 명태찜 •돼지주물럭 • 냉동삼겹살",
+      "ai_main_text": "또 멍텅구리",
+      "stroke_to_height": 0.148,
+      "mask_quality": "ok",
+      "ai_weight": 0.7,
+      "ai_overall_age": 0.3
+    },
+    {
+      "id": "sign_006",
+      "ocr_text": "협조 부탁. 주차 곳에.쓰레기 를 절대로버리지말것 운빈 080",
+      "ai_main_text": "이 곳 에.쓰 레 기 를",
+      "stroke_to_height": 0.565,
+      "mask_quality": "low",
+      "ai_weight": 0.7,
+      "ai_overall_age": 0.3
+    },
+    {
+      "id": "sign_007",
+      "ocr_text": "도 742-8232 누수담지 010-3742-8202 소도 점",
+      "ai_main_text": "누수탐지",
+      "stroke_to_height": 0.415,
+      "mask_quality": "low",
+      "ai_weight": 0.7,
+      "ai_overall_age": 0.6
+    }
+  ]
+}

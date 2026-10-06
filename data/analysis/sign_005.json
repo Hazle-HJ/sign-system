@@ -1,0 +1,243 @@
+{
+  "id": "sign_005",
+  "source": {
+    "filename": "sign_005.jpg",
+    "width": 1600,
+    "height": 1200
+  },
+  "ocr": {
+    "text": "멍텅구리 642-9128 찜전통! 아구찜•알찜•명태찜 돼지주물럭•냉동삼겹살 배달 • 포장 점심식사 좋은추억 만 가세요. 그리고 또 놀러오세요 또 멍텅구리 아구 & 알찜 출입문 아구찜 • 알찜 • 명태찜 •돼지주물럭 • 냉동삼겹살",
+    "confidence": 0.607,
+    "lines": [
+      {
+        "text": "멍텅구리",
+        "confidence": 0.5,
+        "bbox": [
+          0.0712,
+          0.4612,
+          0.234,
+          0.0718
+        ]
+      },
+      {
+        "text": "642-9128",
+        "confidence": 1.0,
+        "bbox": [
+          0.1468,
+          0.5329,
+          0.0814,
+          0.0157
+        ]
+      },
+      {
+        "text": "찜전통!",
+        "confidence": 0.5,
+        "bbox": [
+          0.3125,
+          0.5231,
+          0.0378,
+          0.0156
+        ]
+      },
+      {
+        "text": "아구찜•알찜•명태찜",
+        "confidence": 0.5,
+        "bbox": [
+          0.1381,
+          0.7305,
+          0.0698,
+          0.0137
+        ]
+      },
+      {
+        "text": "돼지주물럭•냉동삼겹살",
+        "confidence": 0.5,
+        "bbox": [
+          0.1352,
+          0.746,
+          0.0785,
+          0.0117
+        ]
+      },
+      {
+        "text": "배달 • 포장",
+        "confidence": 0.5,
+        "bbox": [
+          0.2558,
+          0.7305,
+          0.0363,
+          0.0119
+        ]
+      },
+      {
+        "text": "점심식사",
+        "confidence": 1.0,
+        "bbox": [
+          0.2602,
+          0.746,
+          0.032,
+          0.0117
+        ]
+      },
+      {
+        "text": "좋은추억 만",
+        "confidence": 0.5,
+        "bbox": [
+          0.4084,
+          0.7073,
+          0.0305,
+          0.0136
+        ]
+      },
+      {
+        "text": "가세요.",
+        "confidence": 0.5,
+        "bbox": [
+          0.4172,
+          0.7229,
+          0.0203,
+          0.0156
+        ]
+      },
+      {
+        "text": "그리고 또 놀러오세요",
+        "confidence": 1.0,
+        "bbox": [
+          0.4011,
+          0.7397,
+          0.0481,
+          0.0147
+        ]
+      },
+      {
+        "text": "또 멍텅구리",
+        "confidence": 0.5,
+        "bbox": [
+          0.5508,
+          0.4568,
+          0.2764,
+          0.0826
+        ]
+      },
+      {
+        "text": "아구 & 알찜",
+        "confidence": 0.5,
+        "bbox": [
+          0.5712,
+          0.7304,
+          0.0466,
+          0.016
+        ]
+      },
+      {
+        "text": "출입문",
+        "confidence": 0.5,
+        "bbox": [
+          0.5785,
+          0.746,
+          0.0305,
+          0.0175
+        ]
+      },
+      {
+        "text": "아구찜 • 알찜 • 명태찜 •돼지주물럭 • 냉동삼겹살",
+        "confidence": 0.5,
+        "bbox": [
+          0.6597,
+          0.7335,
+          0.1747,
+          0.0173
+        ]
+      }
+    ]
+  },
+  "color": {
+    "mean_saturation": 0.178,
+    "mean_brightness": 0.549,
+    "contrast": 0.284
+  },
+  "geometry": {
+    "edge_density": 0.137
+  },
+  "typography": {
+    "weight": null,
+    "width": null,
+    "roundness": null,
+    "condensation": null,
+    "irregularity": null
+  },
+  "opencv_text": {
+    "line_text": "또 멍텅구리",
+    "orientation": "horizontal",
+    "stroke_width_px": 15.12,
+    "char_size_px": 102.0,
+    "stroke_to_height": 0.148,
+    "char_aspect": 0.853,
+    "region_source": "ai",
+    "box": [
+      0.553,
+      0.452,
+      0.272,
+      0.085
+    ],
+    "mask_quality": "ok"
+  },
+  "ai": {
+    "model": "gemini-3.6-flash",
+    "observation": {
+      "main_text": {
+        "text": "또 멍텅구리",
+        "box_2d": [
+          452.0,
+          553.0,
+          537.0,
+          825.0
+        ]
+      },
+      "typography": {
+        "weight": 0.7,
+        "width": 0.6,
+        "roundness": 0.4,
+        "condensation": 0.3,
+        "irregularity": 0.7,
+        "stroke_variation": 0.6,
+        "decoration": 0.2
+      },
+      "material": {
+        "metal": 0.3,
+        "plastic": 0.7,
+        "acrylic": 0.5,
+        "paint": 0.3,
+        "fabric": 0.0
+      },
+      "frame": {
+        "presence": 0.8,
+        "thickness": 0.2,
+        "shape": "rectangle",
+        "corner_roundness": 0.1
+      },
+      "lighting": {
+        "type": "none",
+        "intensity": 0.0,
+        "glow": 0.0
+      },
+      "weathering": {
+        "fading": 0.2,
+        "rust": 0.1,
+        "stain": 0.2,
+        "scratch": 0.1,
+        "overall_age": 0.3
+      },
+      "confidence": 0.95,
+      "notes": [
+        "unlit external spotlights mounted above sign",
+        "tree partially obscures lower section of storefront"
+      ]
+    }
+  },
+  "status": {
+    "opencv": "complete",
+    "ocr": "complete",
+    "vision_ai": "complete"
+  }
+}

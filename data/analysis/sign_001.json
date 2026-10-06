@@ -1,0 +1,113 @@
+{
+  "id": "sign_001",
+  "source": {
+    "filename": "sign_001.jpg",
+    "width": 1600,
+    "height": 1200
+  },
+  "ocr": {
+    "text": "대성이발관",
+    "confidence": 0.5,
+    "lines": [
+      {
+        "text": "대성이발관",
+        "confidence": 0.5,
+        "bbox": [
+          0.1265,
+          0.4341,
+          0.6017,
+          0.1841
+        ]
+      }
+    ]
+  },
+  "color": {
+    "mean_saturation": 0.191,
+    "mean_brightness": 0.49,
+    "contrast": 0.194
+  },
+  "geometry": {
+    "edge_density": 0.035
+  },
+  "typography": {
+    "weight": null,
+    "width": null,
+    "roundness": null,
+    "condensation": null,
+    "irregularity": null
+  },
+  "opencv_text": {
+    "line_text": "대성이발관",
+    "orientation": "horizontal",
+    "stroke_width_px": 22.29,
+    "char_size_px": 213.6,
+    "stroke_to_height": 0.104,
+    "char_aspect": 0.914,
+    "region_source": "ai",
+    "box": [
+      0.127,
+      0.437,
+      0.61,
+      0.178
+    ],
+    "mask_quality": "ok"
+  },
+  "ai": {
+    "model": "gemini-3.8-flash",
+    "observation": {
+      "main_text": {
+        "text": "대성이발관",
+        "box_2d": [
+          437.0,
+          127.0,
+          615.0,
+          737.0
+        ]
+      },
+      "typography": {
+        "weight": 0.7,
+        "width": 0.55,
+        "roundness": 0.25,
+        "condensation": 0.4,
+        "irregularity": 0.2,
+        "stroke_variation": 0.15,
+        "decoration": 0.0
+      },
+      "material": {
+        "metal": 0.75,
+        "plastic": 0.2,
+        "acrylic": 0.1,
+        "paint": 0.85,
+        "fabric": 0.0
+      },
+      "frame": {
+        "presence": 0.6,
+        "thickness": 0.2,
+        "shape": "irregular",
+        "corner_roundness": 0.0
+      },
+      "lighting": {
+        "type": "none",
+        "intensity": 0.0,
+        "glow": 0.0
+      },
+      "weathering": {
+        "fading": 0.75,
+        "rust": 0.45,
+        "stain": 0.75,
+        "scratch": 0.8,
+        "overall_age": 0.85
+      },
+      "confidence": 0.95,
+      "notes": [
+        "paint peeling and flaking on lettering and background",
+        "signboard wraps around an angled building corner"
+      ]
+    }
+  },
+  "status": {
+    "opencv": "complete",
+    "ocr": "complete",
+    "vision_ai": "complete"
+  }
+}
